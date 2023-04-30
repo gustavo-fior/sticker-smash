@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Image, View } from "react-native";
 import {
   TapGestureHandler,
@@ -50,14 +51,6 @@ export default function EmojiSticker({ imageSize, stickerSource }) {
     },
   });
 
-  const onTripleTap = useAnimatedGestureHandler({
-    onActive: () => {
-      if (scaleImage.value) {
-        scaleImage.value = scaleImage.value / 2;
-      }
-    },
-  });
-
   const imageStyle = useAnimatedStyle(() => {
     return {
       width: withSpring(scaleImage.value),
@@ -69,13 +62,11 @@ export default function EmojiSticker({ imageSize, stickerSource }) {
     <PanGestureHandler onGestureEvent={onDrag}>
       <AnimatedView style={[containerStyle, { top: -350 }]}>
         <TapGestureHandler numberOfTaps={2} onGestureEvent={onDoubleTap}>
-          <TapGestureHandler numberOfTaps={3} onGestureEvent={onTripleTap}>
-            <AnimatedSticker
-              source={stickerSource}
-              resizeMode="contain"
-              style={[imageStyle, { width: imageSize, height: imageSize }]}
-            />
-          </TapGestureHandler>
+          <AnimatedSticker
+            source={stickerSource}
+            resizeMode="contain"
+            style={[imageStyle, { width: imageSize, height: imageSize }]}
+          />
         </TapGestureHandler>
       </AnimatedView>
     </PanGestureHandler>
