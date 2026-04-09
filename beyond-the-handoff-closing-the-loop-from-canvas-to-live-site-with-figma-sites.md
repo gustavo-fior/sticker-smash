@@ -1,6 +1,6 @@
 # Beyond the handoff: Closing the loop from canvas to live site with Figma Sites
 
-![Cover Image](https://fnngujwsmkqzjzfwkaoi.supabase.co/storage/v1/object/public/content-images/d8431332-ab2c-474f-a5b4-6b74f0c3e0a5/907dad4d-df18-4a90-b49e-effb493f83d3/cover.jpg)
+![Beyond the handoff: Closing the loop from canvas to live site with Figma Sites](https://fnngujwsmkqzjzfwkaoi.supabase.co/storage/v1/object/public/content-images/d8431332-ab2c-474f-a5b4-6b74f0c3e0a5/907dad4d-df18-4a90-b49e-effb493f83d3/cover.jpg)
 
 Until recently, the only way to move from a design to a live website was through a series of high-friction handoffs. Designers would spend weeks meticulously crafting layouts, defining typography scales, and organizing atomic components in Figma, only to hand over a static representation of their vision to a developer. From there, the process often slowed down. The developer would then need to translate those visual intents into code—recreating the same margins, the same padding, and the same responsive logic in a separate environment. This gap between the canvas and the browser has long been the primary source of friction in product development, leading to lost context, design debt, and a constant back-and-forth that drains creative energy.
 
@@ -74,7 +74,7 @@ At the end of the day, the goal of Figma Sites is to make the process of buildin
 
 *   **Instant Feedback:** Instead of waiting for a staging build, you can share a live link with your team the moment you have an idea. 
 *   **Simplified Hosting:** No more worrying about SSL certificates, CDN configurations, or server maintenance. We handle the infrastructure so you can focus on the experience.
-*   **Direct Canvas Editing:** If you see a typo on the live site, you don't need to open a Jira ticket. You just fix it on the canvas and hit update. 
+*   **Direct Canvas Editing:** If you see a typo on the live site, you don't need to open a Jira ticket. You just fix it on the canvas and hit update.
 
 Moving quickly matters. But we also know that the best products are the result of thoughtful exploration and constant iteration. Figma Sites allows you to do both. You can move fast because the technical friction is gone, but you can also take the time to get the details right because the canvas makes it so easy to experiment.
 
